@@ -126,6 +126,13 @@ main {
 
 
 
+
+
+
+
+
+
+
 /* Mobile devices */
 @media screen and (max-width: 576px) {
 
@@ -134,10 +141,14 @@ main {
         padding: 10px 10px;
     }
 
-    nav {
+    nav, 
+    .teams-container{
         flex-direction: column;
     }
-
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    }
+   
 }
 
 /* Tablet or */
@@ -147,8 +158,9 @@ main {
     nav ul {
         padding: 10px 10px;
     }
-
-    nav {
+    
+    nav ,
+    .teams-container{
         flex-direction: column;
     }
 
