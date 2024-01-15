@@ -169,12 +169,17 @@ main {
     }
 
     nav, 
-    .teams-container{
+    .teams-container,
+    .facts-card-container{
         flex-direction: column;
     }
     .teams-img-container{
         grid-template-columns: 1fr;
     }
+    .facts-card-container{
+        gap: 20px;
+    }
+
    
 }
 
