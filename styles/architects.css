@@ -194,6 +194,9 @@ main {
     width: 342px;
     height: 200px;
     border-radius: 8px;
+    position: relative;
+    bottom: 120px;
+    right: 100px;
 }
 
 .ten h2 {
