@@ -1,55 +1,100 @@
 /*  work sans font from google fonts */
-*{
+* {
     font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal; 
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
-.btn-primary{
-    
+
+.btn-primary {
+    width: 200px;
+    height: 70px;
+    border-radius: 8px;
+    background: #FF900E;
+    color: white;
+    border: none;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 /* Header style */
-header{
+header {
     background-color: rgba(255, 238, 0, 0.315);
-    padding: 50px 240px;
+    padding: 50px 120px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     gap: 30px;
 }
-nav li{
+
+nav li {
     list-style: none;
 
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #424242;
     font-size: 1rem;
     font-weight: 500;
 }
-.nav-title{
+
+.nav-title {
     font-size: 2.5rem;
     font-weight: 700;
     color: #131313;
 }
 
 /* Banner styles */
-.banner-content{
+.banner-content {
     max-width: 800px;
     text-align: center;
     margin: 0px auto;
 }
-.banner-title{
+
+.banner-title {
     font-size: 4rem;
     font-weight: 700;
     color: #131313;
 }
-.banner-discription{
+.banner-discription {
     color: #727272;
+}
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+
+/* Mobile devices */
+@media screen and (max-width: 576px) {
+    header, nav ul{
+        padding: 10px 10px;
+    }
+    nav{
+        flex-direction: column;
+    }
+   
+}
+
+/* Tablet or */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+
+    header, nav ul{
+        padding: 10px 10px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
 }
