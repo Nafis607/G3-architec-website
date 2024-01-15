@@ -66,35 +66,90 @@ nav a {
     font-weight: 700;
     color: #131313;
 }
+
 .banner-discription {
     color: #727272;
 }
-.banner img{
+
+.banner img {
     margin-top: 20px;
     width: 100%;
+}
+
+
+/* main styles */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Team styles */
+.teams-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.teams-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+}
+
+.teams-title {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    color: #727272;
+}
+
+.our {
+    color: #131313;
+    font-weight: 700;
+}
+
+.feature {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.teams-description {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 2rem;
+    text-align: justify;
 }
 
 
 
 /* Mobile devices */
 @media screen and (max-width: 576px) {
-    header, nav ul{
+
+    header,
+    nav ul {
         padding: 10px 10px;
     }
-    nav{
+
+    nav {
         flex-direction: column;
     }
-   
+
 }
 
 /* Tablet or */
 @media screen and (min-width: 576px) and (max-width: 960px) {
 
-    header, nav ul{
+    header,
+    nav ul {
         padding: 10px 10px;
     }
-    nav{
+
+    nav {
         flex-direction: column;
     }
-    
+
 }
